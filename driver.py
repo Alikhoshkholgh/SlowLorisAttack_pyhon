@@ -4,11 +4,11 @@ import threading
 import sys
 
 
-target = "192.168.1.4"
-port = 80
+target = <Target-IP>
+port = <Target-port>
 connection_count = 500
 timeInterval = 2
-uri = "login.php" #write the uri in here. do not write '/' as the first character
+uri = "login.php"   #write the uri in here. do not write '/' as the first character
 
 
 
